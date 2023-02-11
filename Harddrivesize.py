@@ -1,0 +1,8 @@
+# Write a program that prompts the user to enter the size of the hard drive specified
+# by the manufacturer, on the hard drive box, and outputs the actual storage
+# capacity of the hard drive.
+
+hard_drive_size = int(input("enter the size of the hard drive specified by the manufacturer in gb: "))
+computer_default = 37.25
+actual_hddsize = (hard_drive_size * computer_default) / 40
+print(f"{actual_hddsize}GB" )

@@ -1,0 +1,12 @@
+# Write a program that does the get milk factory profits
+total_amount_milk = int(input("enter the total of milk produced in the morning: "))
+
+carton_milkInLiters = 3.78
+productionCostInLiters = 250
+profitInLiters = 180
+milk_cartons = carton_milkInLiters * total_amount_milk
+print(f"{milk_cartons.__round__()} number of milk cartons needed to hold milk.")
+cost_of_production = productionCostInLiters * total_amount_milk
+print(f"{cost_of_production} cost of producing milk.")
+profits = profitInLiters * total_amount_milk
+print(f"{profits} the profits made")
